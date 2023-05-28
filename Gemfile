@@ -25,7 +25,8 @@ gem "turbo-rails"
 gem "stimulus-rails"
 
 gem "simple_form"
-gem "sassc-rails" 
+gem "sassc-rails"
+gem "dotenv-rails", groups: [:development, :test]
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
