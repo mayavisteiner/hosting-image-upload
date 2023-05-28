@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: hosting_image_upload_production
-  username: hosting_image_upload
+  username:   
   password: <%= ENV["HOSTING_IMAGE_UPLOAD_DATABASE_PASSWORD"] %>
